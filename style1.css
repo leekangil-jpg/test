@@ -1,0 +1,50 @@
+/* Web Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+    font-family: 'nanumgothic';
+    font-size: 13px;
+    color:#555;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6em;
+}
+.header{z-index: 1;}
+
+/* Layout CSS */
+.product-list{
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.product-list>div{
+  display: inline-block;
+  margin: 10px;
+}
+.month{
+  margin-top: 5px;
+  text-align: center;
+  background-color: gold;
+}
+.month>div{
+  display: inline-block;
+  margin: 20px;
+}
+.month>div:hover{
+  border: 2px solid black;
+}
+.product-list>div:hover {
+ border: 2px solid black;
+}
+
+.description b {
+    display: block;
+}
+iframe{
+  margin-left: 400px;
+}
+#footer{
+  background-color: black;
+  opacity: 0.2%;
+}

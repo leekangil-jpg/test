@@ -1,0 +1,74 @@
+/* Web Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+    font-family: 'nanumgothic';
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+.header{z-index: 1;}
+.container{
+  float: none;
+  border: 1px solid red;
+  /* clear:both; */
+}
+.none{
+  clear:both;
+  height: 0;
+  overflow:hidden;
+}
+/* Layout CSS */
+section.product-list {
+    /* width: 1000px; */
+    text-align:center;
+
+    /* Centering */
+    /* position: absolute; */
+    /*top: 50%;*/
+    /* left: 15%; */
+    /* transform: translate(-40%,0%); */
+}
+
+.product-list{
+  width: 30%;
+  float:left;
+  border: 1px solid black;
+}
+
+.box{
+  width: 50%;
+  display: inline-block;
+  float:left;
+  border: 1px solid red;
+}
+/* .caption {
+    width: 310px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    opacity: 1;
+    transition: 0.5s;
+} */
+h1{margin: 10px 10px;}
+.description b {
+  margin-top: 10px;
+    display: block;
+}
+
+.ph{
+  width:80%;
+  clear:both;
+  border: 1px solid red;
+  height: 80px;
+  margin: 0 auto;
+}
+.hover-area:hover .caption {
+    opacity: 1;
+}
+#footer{
+  clear:both;
+}

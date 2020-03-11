@@ -1,0 +1,29 @@
+*{
+  text-decoration: none;
+}
+.section{
+  margin: 10px;
+  margin-left: 150px;
+}
+.article{
+  width: 80%;
+
+}
+.article:hover{
+  border: 1px solid black;
+}
+
+div{display:inline-block;
+  }
+  span{
+    font-size: 20px;
+  }
+  .a{
+    position: relative;
+    left:120px;
+    bottom:70px
+  }
+  #footer{
+    width: 100%;
+    text-align: center;
+  }
