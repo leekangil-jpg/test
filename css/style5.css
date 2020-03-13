@@ -5,23 +5,35 @@
   margin: 10px;
   margin-left: 150px;
 }
+
 .article{
+  border:2px solid red;
+  overflow: hidden;
   width: 80%;
+}
+.ch{
+  border:2px solid blue;
+  width:40%;
 
 }
 .article:hover{
   border: 1px solid black;
 }
-
-div{display:inline-block;
+img{
+    border:2px solid gold;
+    width:100%;
+}
+div{
+  float:left;
   }
   span{
-    font-size: 20px;
+    font-size: 15px;
   }
   .a{
+    width:50%;
     position: relative;
-    left:120px;
-    bottom:70px
+    left:20px;
+    top:20px
   }
   #footer{
     width: 100%;
