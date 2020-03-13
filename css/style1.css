@@ -45,6 +45,9 @@ iframe{
   margin-left: 400px;
   display: block;
 }
+img{
+  width: 100%;
+}
 #footer{
   background-color: black;
   opacity: 0.2%;
